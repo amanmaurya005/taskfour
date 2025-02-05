@@ -16,7 +16,7 @@
     background-color: indianred;
     padding: 20px 0 0 0;
     position: sticky;
-    top:0;
+    top:-80px;
 }
 .box1 a{
     text-decoration: none;
