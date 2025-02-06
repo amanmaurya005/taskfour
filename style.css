@@ -10,13 +10,16 @@
     justify-content: space-between;
     position: relative;
 }
+.top{
+    position: sticky;
+    top: 0;
+}
 .box1{
-    height: 700px;
+    height: 900px;
     width: 28%;
     background-color: indianred;
     padding: 20px 0 0 0;
-    position: sticky;
-    top:-80px;
+ 
 }
 .box1 a{
     text-decoration: none;
@@ -28,15 +31,15 @@
 .box1 h1{
     padding: 0 0px 20px 20px;
 }
-.box1 p{
+.box1 li{
     width: 300px;
     background-color: blanchedalmond;
     margin: 5px  0 5px 20px;
     height: 40px;
     padding: 5px;
+    list-style: none;
 }
 .box2{
     width: 70%;
-   
     padding: 10px;
 }
